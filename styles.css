@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding:10px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.hero {
+    background-color: #4d0523;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #4d0523;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.good {
+    background-color: gray;
+    color: white;
+    padding: 50px 20px;
+}
+
+#skills {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+#projects {
+    background-color: #ff6347;
+    padding: 50px 20px;
+}
+
+
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills-list li {
+    background-color: #8FBC8F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.project-card {
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: transparent; /* Set background to transparent */
+    padding: 20px;
+    box-shadow: none; /* Remove the shadow */
+    border-radius: 0; /* Remove the rounded corners */
+}
+
+
+#contact a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .skills-list {
+        flex-direction: column;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+}
